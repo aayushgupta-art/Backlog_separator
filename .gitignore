@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+.venv_test/
+
+# Python & testing caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Generated outputs & scratch files
+output/
+debug/
+scratch/
+
+# Sensitive student data & exported files
+sample_input/
+*.pdf
+*.zip
+*.xlsx
+*.csv
+
+# Local configuration & secrets
+settings.json
+.streamlit/secrets.toml
